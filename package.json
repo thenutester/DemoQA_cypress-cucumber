@@ -1,0 +1,24 @@
+{
+  "name": "cypress-cucumber",
+  "version": "2.1.0",
+  "description": "Demo qa_profile page_assignment",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run",
+    "cypress:execution-tags": "cypress run --env tags=@profile_page_01"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "cucumber",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.9.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "esbuild": "^0.15.10",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  }
+}
